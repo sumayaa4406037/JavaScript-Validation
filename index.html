@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h2> JavaScript Validation</h2>
+<form name="myForm"  onsubmit="return validateForm()" method="post">
+    <div class="input-group">
+        <label for="">Username:</label>
+        <input type="text" name="fname" id="">
+        <p id="error_n"></p>
+       
+    </div>
+    <div class="input-group">
+        <label for="">Email:</label>
+        <input type="text" name="email" id="">
+        <p id="error_e"></p>
+    </div>
+    <div class="input-group">
+        <label for="">Mobile:</label>
+        <input type="tel" name="mobile" id="mobile">
+        <p id="error_e"></p>
+       
+    </div>
+    <div class="input-group">
+        <label for="">Password:</label>
+        <input type="text" name="password" id="">
+        <p id="error_e"></p>
+    </div>
+    <div class="input-group">
+        <label for="">Confirm Password:</label>
+        <input type="text" name="cpassword" id="">
+        <p id="error_e"></p>
+        
+    </div> 
+  <button type="submit" name="submit">Submit</button>
+</form>
+</div>
+
+<script src="apps.js"></script>
+</body>
+</html>
